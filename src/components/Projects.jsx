@@ -14,7 +14,7 @@ const Projects = () => {
       tech: ['Python', 'Streamlit', 'Pandas', 'Matplotlib', 'ML'],
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop',
       demo: '#',
-      github: '#',
+      github: "https://github.com/safeekrahman/SMART-DASHBOARD-FOR-PENGUIN-DATA-INSIGHTS-AND-PREDICTION-.git",
       gradient: 'from-purple-500 to-blue-500',
     },
     {
@@ -23,7 +23,7 @@ const Projects = () => {
       tech: ['Python', 'Flask', 'HTML', 'CSS', 'SQLite', 'Scikit-learn'],
       image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop',
       demo: '#',
-      github: '#',
+      github: "https://github.com/safeekrahman/Lung-Cancer-Prediction-.git",
       gradient: 'from-pink-500 to-purple-500',
     },
   ]
@@ -103,15 +103,15 @@ const Projects = () => {
 
                   {/* Action Buttons */}
                   <div className="flex gap-3 pt-4 border-t border-white/10">
-                    <a
+                    {/* <a
                       href={project.demo}
                       className="flex-1 px-4 py-2 bg-gradient-to-r from-purple-600 to-blue-600 
                                rounded-lg font-semibold text-center hover:from-purple-700 hover:to-blue-700 
                                transition-all duration-300 flex items-center justify-center gap-2"
                     >
                       <FaExternalLinkAlt />
-                      Live Demo
-                    </a>
+                      
+                    </a> */}
                     <a
                       href={project.github}
                       className="flex-1 px-4 py-2 border-2 border-purple-500 rounded-lg font-semibold 
